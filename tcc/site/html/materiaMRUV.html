@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleExemploMateria.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Movimento Retilíneo Uniformemente Variado - MRUV</title>
+</head>
+
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span id="fechar" onclick="hideModal()">&times;</span>
+            <h1>Política de Privacidade</h1>
+            <p>A sua privacidade é importante para nós. É política do Desconfísica respeitar a sua privacidade em
+                relação a
+                qualquer informação sua que possamos coletar no site Desconfísica, e outros sites que possuímos e
+                operamos.<br>
+
+                Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço.
+                Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que
+                estamos
+                coletando e como será usado.<br>
+
+                Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando
+                armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos,
+                bem como
+                acesso, divulgação, cópia, uso ou modificação não autorizados.<br>
+
+                Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando
+                exigido por
+                lei.<br>
+
+                O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não
+                temos
+                controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas
+                respectivas
+                políticas de privacidade.<br>
+
+                Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não
+                possamos
+                fornecer alguns dos serviços desejados.<br>
+
+                O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de Aviso de
+                Privacidad e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e
+                informações pessoais, entre em contato conosco.<br>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-Termos">
+        <div class="modal-content" id="Termos">
+            <span id="fechar" onclick="hideModalTermos()">&times;</span>
+            <h1>Termos de Uso</h1>
+            <p>Ao acessar ao site Desconfísica, concorda em cumprir estes termos de serviço, todas as leis e
+                regulamentos
+                aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você
+                não
+                concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos
+                neste
+                site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</p>
+        </div>
+    </div>
+
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html" title="Desconfísica">
+                    <img src="../assets/images/logo.png" alt="Logo Desconfísica" width="80px" height="80px"
+                        class="logo">
+                </a>
+                <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="topicos nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li class="nav-item px-xxl-5">
+                            <a class="botao nav-link text-white rounded" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-xxl-5">
+                            <a class="botao nav-link text-white rounded" href="../html/materias.html">Matérias</a>
+                        </li>
+                        <li class="nav-item ps-xxl-5">
+                            <a class="botao nav-link text-white rounded" href="#">Quem Somos</a>
+                        </li>
+                    </ul>
+                    <div class="text-end">
+                        <a href="login.html" target="_blank"><button type="button" class="btn btn-dark">Login</button></a>
+                        <a href="cadastro.html"><button type="button" class="btn btn-primary"
+                                id="Cadastro">Cadastre-se</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="corpo">
+        <section class="body-middle">
+            <div>
+                <a class="hyperlink" href="../index.html">Home</a>
+                <small style="color: white;">></small>
+                <a class="hyperlink" href="../html/materias.html">Matérias</a>
+                <small style="color: white;">></small>
+                <a class="hyperlink">Cinemática</a>
+            </div>
+
+            <section class="explicacaoMateria">
+                <div id="cabecalhoExplicacao">
+                    <h1>Movimento Retilíneo Uniformemente Variado(MRUV)</h1>
+                    <h3>O que é? Fórmulas e explicações</h3>
+                </div>
+
+                <div class="texto">
+                    <figure>
+                        <img src="../assets/images/Movimento Retilineo Uniformemente Variado/exemplificacaoMRUV.webp" alt="Imagem Ilustrativa" style="width: 800px;">
+                        <figcaption>Representação do MRUV</figcaption>
+                    </figure>
+
+                    <div class="subTituloSecao">
+                        <h2>Movimento Variado</h2>
+                    </div>
+
+                    <p>O<strong> Movimento Variado</strong> ocorre quando a velocidade de um corpo varia de maneira constante, ou seja, este corpo possui aceleração constante. Essa variação da velocidade é o que ocorre quando se pisa no acelerador ou no freio do carro. Na física, essa variação é expressa pela seguinte fórmula:
+                    </p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/FormulaAceleracao.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p style="text-align: center;"><strong>A</strong> significa aceleração;<br>
+                        <strong>Vf</strong> significa velocidade final;<br>
+                        <strong>V0</strong> significa velocidade inicial;<br>
+                        <strong>tf</strong> significa tempo final;<br>
+                        <strong>t0</strong> significa tempo inicial;<br>
+                    </p>
+                </div>
+
+                <div class="texto">
+                    <p>Agora vamos mostrar um exemplo feito a partir de uma plataforma de animações matemáticas chamada
+                        Manim que utiliza a fórmula do conteúdo.
+                        <br>
+                    </p>
+                    <p>Imagine um corpo que vem num deslocamento com velocidade igual a 1 m/s. Ele chega até o ponto 3 de uma reta e depois se desloca 6m em 3 segundos.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/exemploMovimentoAcelerado.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Com os módulos de tempo e velocidade indicados no exemplo, podemos a partir daí descobrir a aceleração desse corpo.
+                        <br>
+                    </p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/resolvendoExemplo2.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Observe que no exemplo mostrado, o módulo da aceleração é positivo, isso significa que o movimento é <strong>acelerado</strong>, sua velocidade aumenta conforme o tempo passa. Agora mostraremos um exemplo em que o módulo da aceleração é negativo.
+                        <br>
+                    </p>
+                    <p>Imagine um corpo que chega ao ponto 1 da reta com velocidade de 5m/s, depois ele se desloca até o ponto 9 num tempo de 4 segundos.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/movimentoRetardado.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Resolvendo esse exemplo:</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/resolvendoExemplo3.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Nesse exemplo, o módulo da aceleração é negativo, e por isso o movimento é chamado de <strong>retardado</strong>, ou desacelerado. A velocidade diminui com o passar do tempo.</p>
+                </div>
+
+                <div class="texto">
+                    <p>A partir deste exemplo foi possível perceber que a velocidade foi reduzida. Ela foi de 5 cm/s para 2 cm/s no final do seu percurso. Para mostrar tal ideia mais facilmente, montamos um gráfico para auxiliar na compreensão da matéria. Gráfico de <strong>velocidade</strong>
+                        pelo <strong>tempo</strong>.</div>
+                        
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/graficoVelocidadeporTempo.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Outro possível gráfico que pode ser feito é o de <strong>posição</strong> pelo <strong>tempo</strong>.
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Retilíneo Uniformemente Variado/graficoPosicaopeloTempoMRUV.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Percebe-se que foi formado uma parábola para baixo significando que aconteceu um movimento retardado. Por outro lado, se a parábola estivesse voltada para cima, o movimento seria acelerado.
+                </div>
+            </section>
+        </section>
+
+        <footer id="rodape">
+            <div class="divRodape">
+                <div id="sobre">
+                    <h1>DESCONFÍSICA</h1>
+                    <p>Uma plataforma de estudos de física</p>
+                </div>
+                <div id="categorias">
+                    <h1>CATEGORIAS</h1>
+                    <a href="../index.html">Início</a>
+                    <a href="materias.html">Matérias</a>
+                    <a href="quemSomos.html">Quem Somos</a>
+                </div>
+                <div id="informacoes">
+                    <h1>INFORMAÇÕES</h1>
+                    <p onclick="showModal()">Política de Privacidade</p>
+                    <p onclick="showModalTermos()">Termos e Condições</p>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>Copyright © 2022 | DESCONFÍSICA. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="../index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

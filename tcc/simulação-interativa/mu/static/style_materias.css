@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+    text-decoration: none;
+}
+
+::selection{
+    background-color: #933FFE;
+    color: #fff;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    background-color: #1A1B23
+}
+
+a.botao {
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+
+}
+
+div.text-end button {
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+div.text-end button:hover {
+    background: black;
+    border: 1px solid #FFFFFF;
+}
+
+div.text-end button#Cadastro {
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border-radius: 10px;
+    border: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+.cor {
+    background: #0B0B0F;
+}
+
+#middle-eletromagnetismo {
+    border-top: 1px solid #FFFFFF;
+}
+
+h2 {
+    color: white !important;
+}
+
+h1 {
+    margin: 20px !important;
+    color: white;
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 1;
+}
+
+h1::before {
+    content: "";
+    background-color: #933FFE;
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1; 
+    transition: transform 300ms ease;
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
+h1.tituloMateria:hover::before {
+    transform: scaleX(1);
+}
+
+.tituloMateria {
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.row{
+    display: flex ;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px !important;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    background-color: #1A1B23 !important;
+    color: white;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card h2 {
+    font-size: 2rem;
+    font-weight: 400px;
+}
+   
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+   
+.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.blue {
+    border-left: 3px solid #4895ff !important;
+}
+   
+.green {
+    border-left: 3px solid #3bb54a !important;
+}
+   
+.red {
+    border-left: 3px solid #b3404a !important;
+}
+
+.purple {
+    border-left: 3px solid #933FFE !important;
+}
+
+#rodape {
+    width: 100%;
+    padding-top: 20px;
+    background: rgba(18, 18, 31, 0.849);
+}
+
+.divRodape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.divRodape h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.divRodape a {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.divRodape p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.divRodape a:hover, .divRodape p:hover {
+    color: #B982FF;
+    cursor: pointer;
+}
+
+#sobre,
+#categorias,
+#informacoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.modal {
+    position: fixed !important;
+    padding: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transform: scale(1.1) !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out !important;
+}
+
+.modal-content {
+    background-color: white !important;
+    padding: 16px 24px !important;
+    width: 1500px !important;
+    border-radius: 0.5rem !important;
+
+}
+
+#fechar{
+    float: right !important;
+    width: 24px !important;
+    cursor: pointer !important;
+    background-color: lightgray !important;
+    text-align: center !important;
+    line-height: 24px !important;
+}
+
+#fechar:hover {
+    background-color: darkgray !important;
+}
+
+.show-modal {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: scale(1.0) !important;
+
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+#copyright p {
+    padding-top: 10px;
+    color: white;
+    border-top: 1px solid #B982FF;
+}
+
+@media(max-width: 600px) {
+    #informacoes {
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    .card {
+        width: 300px !important;
+    }
+
+    .card h2{
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+    h1.tituloMateria {
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 432px) {
+    a.navbar-brand img {
+        width: 67.6px;
+        height: 52px;
+    }
+}
+
+@media(max-width: 400px) {
+    p {
+        font-size: 11px;
+    }
+
+    .divRodape h1 {
+        font-size: 15px;
+    }
+
+    .divRodape a,
+    p {
+        font-size: 12px;
+    }
+
+    #copyright p {
+        font-size: 11px;
+    }
+}

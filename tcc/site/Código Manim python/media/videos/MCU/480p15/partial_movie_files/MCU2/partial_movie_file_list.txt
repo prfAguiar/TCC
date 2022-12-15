@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/3163782288_139160729_223132457.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_329969645_2005659005.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_1257127411_1343464455.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_329969645_3524914346.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_2698980124_1867355994.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_329969645_1031117338.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_1436182500_854809605.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_125286499_3097069567.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_329969645_974110313.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_4235956715_3872431286.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_3566909876_2679020456.mp4'
+file 'file:C:/Users/Samukinha/Desktop/siteAtualizado/Código Manim python/media/videos/MCU/480p15/partial_movie_files/MCU2/2201830969_125286499_1940841821.mp4'

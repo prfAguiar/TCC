@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/prfag/Desktop/site/media/videos/resolvendoExemplo/1080p60/partial_movie_files/Formula/2724823860_2102606612_2856084504.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/resolvendoExemplo/1080p60/partial_movie_files/Formula/1164547788_3526213848_4225918607.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/resolvendoExemplo/1080p60/partial_movie_files/Formula/1164547788_3501260835_513476354.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/resolvendoExemplo/1080p60/partial_movie_files/Formula/1164547788_378179449_1238489300.mp4'

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleExemploMateria.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Velocidade Escalar Média, Velocidade Instantânea e Movimento Uniforme</title>
+</head>
+
+<body>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span id="fechar" onclick="hideModal()">&times;</span>
+            <h1>Política de Privacidade</h1>
+            <p>A sua privacidade é importante para nós. É política do Desconfísica respeitar a sua privacidade em
+                relação a
+                qualquer informação sua que possamos coletar no site Desconfísica, e outros sites que possuímos e
+                operamos.<br>
+
+                Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço.
+                Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que
+                estamos
+                coletando e como será usado.<br>
+
+                Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando
+                armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos,
+                bem como
+                acesso, divulgação, cópia, uso ou modificação não autorizados.<br>
+
+                Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando
+                exigido por
+                lei.<br>
+
+                O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não
+                temos
+                controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas
+                respectivas
+                políticas de privacidade.<br>
+
+                Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não
+                possamos
+                fornecer alguns dos serviços desejados.<br>
+
+                O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de Aviso de
+                Privacidad e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e
+                informações pessoais, entre em contato conosco.<br>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-Termos">
+        <div class="modal-content" id="Termos">
+            <span id="fechar" onclick="hideModalTermos()">&times;</span>
+            <h1>Termos de Uso</h1>
+            <p>Ao acessar ao site Desconfísica, concorda em cumprir estes termos de serviço, todas as leis e
+                regulamentos
+                aplicáveis ​​e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você
+                não
+                concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos
+                neste
+                site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</p>
+        </div>
+    </div>
+
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html" title="Desconfísica">
+                    <img src="../assets/images/logo.png" alt="Logo Desconfísica" width="130px" height="100px"
+                        class="logo">
+                </a>
+                <button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-info"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="topicos nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li class="nav-item px-xxl-5">
+                            <a class="botao nav-link text-white rounded" aria-current="page"
+                                href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-xxl-5">
+                            <a class="botao nav-link text-white rounded" href="materias.html">Matérias</a>
+                        </li>
+                        <li class="nav-item ps-xxl-5">
+                            <a class="botao nav-link text-white rounded" href="quemSomos.html">Quem Somos</a>
+                        </li>
+                    </ul>
+                    <div class="text-end">
+                        <a href="login.html" target="_blank"><button type="button"
+                                class="btn btn-dark">Login</button></a>
+                        <a href="cadastro.html"><button type="button" class="btn btn-primary"
+                                id="Cadastro">Cadastre-se</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="corpo">
+        <section class="body-middle">
+            <div>
+                <a class="hyperlink" href="../index.html">Home</a>
+                <small style="color: white;">></small>
+                <a class="hyperlink" href="../html/materias.html">Matérias</a>
+                <small style="color: white;">></small>
+                <a class="hyperlink">Cinemática</a>
+            </div>
+
+            <section class="explicacaoMateria">
+                <div id="cabecalhoExplicacao">
+                    <h1>Velocidade Escalar Média,<br> Velocidade Instantânea<br>e<br>Movimento Uniforme</h1>
+                    <h3>O que é? Fórmulas e explicações</h3>
+                </div>
+
+                <div class="texto">
+                    <figure>
+                        <img src="../assets/images/velocimetro.jpg" alt="Imagem Ilustrativa" class="img-materias">
+                        <figcaption>Velocímetro de um carro</figcaption>
+                    </figure>
+
+                    <div class="subTituloSecao">
+                        <h2>Velocidade Escalar Média</h2>
+                    </div>
+
+                    <p>A<strong> Velocidade</strong> é utilizada em muitos momentos do nosso dia a dia como, por
+                        exemplo, em velocímetro de carros como visto na imagem acima. No geral, a velocidade escalar
+                        média é a distância percorrida, dividida pelo tempo de duração. Na Física é expressa de acordo
+                        com a fórmula abaixo:
+                    </p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Velocidade Escalar Media/FormulaVelocidadeEscalarMédia.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p style="text-align: center;"><strong>V</strong> significa velocidade;<br>
+                        <strong>S<sub>0</sub></strong> significa posição inicial;<br>
+                        <strong>S</strong> significa posição final;<br>
+                        <strong>T<sub>0</sub></strong> significa velocidade inicial;<br>
+                        <strong>T</strong> significa velocidade final;<br><br>
+                    </p>
+                </div>
+
+                <div class="texto">
+                    <p>Agora vamos mostrar um exemplo feito a partir de uma plataforma de animações matemáticas chamada
+                        Manim que utiliza a fórmula do conteúdo.
+                        <br>
+                    </p>
+                    <p>Imagine uma formiga vermelha em velocidade constante andando em cima de uma linha reta com
+                        distâncias de 1 em 1 cm. O tempo estará sendo cronometrado ao lado esquerdo da linha em
+                        segundos.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Velocidade Escalar Media/exemploVelocidadeEscalarMedia.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Como foi percebido, a formiga percorreu 5 centímetros em 5 segundos. Ela começou do ponto 2cm e
+                        foi até o 7cm. A diferença entre a posição final e inicial é chamada de
+                        <strong>deslocamento</strong>. Tendo como base o deslocamento inicial e final juntamente com o
+                        tempo inicial que é <strong>nulo</strong> e o tempo final é possível calcular a velocidade
+                        escalar média.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Velocidade Escalar Media/resolvendoExemplo.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>A partir deste exemplo foi possível perceber que a velocidade escalar média foi de <strong>1
+                            cm/s</strong>, ou seja, a formiga caminhou 1 cm a cada segundo em cima da linha reta. Sendo
+                        assim, um importante ponto a se pensar é em relação a gráficos que são muito importantes na
+                        física e que ajudam a entender diversas questões. Portanto criamos um gráfico de
+                        <strong>deslocamento</strong> pelo <strong>tempo</strong> que será mostrado a seguir.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Velocidade Escalar Media/graficoVelocidadePorTempo.mp4"
+                            type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>A unidade de velocidade de acordo com o Sistema Internacional das Unidades é expressa em m/s,
+                        portanto a distância tem que ser analisada em metros(m) e o tempo em segundos(s).
+                        Desviando um pouco da norma e não muito rara de ser encontrada é a unidade em km/h ou em cm/s
+                        como foi no nosso exemplo. Assim sendo, para se encaixar ao padrão utilizado pode-se converter
+                        de km/h para m/s. Para realizar esta conversão é preciso dividir por 3,6 e para realizar de m/s
+                        para km/h basta dividir por este número.</p>
+                </div>
+
+                <div class="subTituloSecao">
+                    <h2>Velocidade Instantânea</h2>
+                </div>
+
+                <div class="texto">
+                    <p>Chegando ao objetivo da inserção da imagem de um velocímetro de um carro acima, a velocidade
+                        instantânea é a velocidade mostrada nos carros, aquela que se olha em um determinado momento.
+                        Quando estamos na estrada, por exemplo, e percebemos que o velocímetro marca 90km/h isto
+                        significa que se o carro permanecer em uma velocidade constante durante 1 hora, ele percorrerá
+                        os 90 km. Se o velocímetro registra 50km/h em um instante e após um período 70km/h, a velocidade
+                        instantânea entrou em cena em determinados momentos. Esse
+                        conteúdo é muito aplicado quando o &#916t é praticamente nulo, ou seja, infinitamente
+                        pequeno.<br> Esse tipo de velocidade também é de grandeza escalar, bem como a velocidade
+                        <strong>escalar</strong> média.</p>
+                </div>
+
+                <figure>
+                    <img src="../assets/images/velocidadeInstantesDiferentes.jpg" alt="Imagem Ilustrativa">
+                    <figcaption>Velocidade em instantes diferentes<br>Fonte: Brainly</figcaption>
+                </figure>
+
+                <div class="texto">
+                    <p>Observe que para cada tempo (3s ou 8s) ou instante, temos uma velocidade diferente do carro.
+                        Portanto, a velocidade instantânea nessas duas ocasiões é diferente a partir da observação da
+                        velocidade em junção do instante de tempo</p>
+                </div>
+
+                <div class="subTituloSecao">
+                    <h2>Movimento Uniforme</h2>
+                </div>
+
+                <div class="texto">
+                <p>O<strong> Movimento Uniforme</strong> ocorre quando um corpo se desloca com velocidade constante
+                    (aceleração = 0) em uma linha reta. A fórmula é a seguinte:
+                </p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Uniforme/introducaoMovimentoUniforme.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>No MU, o corpo não necessita estar se movimentando em linha reta, em círculos ou em qualquer
+                        outra
+                        forma, basta que a sua velocidade escalar se mantenha a mesma por todo o tempo.</p>
+                </div>
+
+                <div class="texto">
+                    <p>A unidade de velocidade de acordo com o Sistema Internacional das Unidades é expressa em m/s,
+                        portanto a distância tem que ser analisada em metros(m) e o tempo em segundos(s).
+                        Desviando um pouco da norma e não muito rara de ser encontrada é a unidade em km/h ou em cm/s
+                        como foi no nosso exemplo. Assim sendo, para se encaixar ao padrão utilizado pode-se converter
+                        de km/h para m/s. Para realizar esta conversão é preciso dividir por 3,6 e para realizar de m/s
+                        para km/h basta dividir por este número.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Uniforme/formulaMovimentoUniforme.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Utilizando-se do exemplo proposto nesta página, será calculado o tempo através da fórmula do Movimento Uniforme. Pode ser descoberta a velocidade, posição final e posição inicial isolando o que esteja procurando.</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Uniforme/ExemploMU.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="texto">
+                    <p>Gráfico Velocidade por Tempo:</p>
+                </div>
+
+                <div id="videoManim">
+                    <video controls width="900px" height="506px" poster="">
+                        <source src="/assets/videos/Movimento Uniforme/graficoVelocidadepeloTempoMU.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="subTituloSecao">
+                    <h2>Classificação do movimento e referenciais</h2>
+                </div>
+
+                <div class="texto">
+                    <p> Quando falamos de movimento uniforme, precisamos falar também sobre referenciais. Na Física,
+                        chamamos de referencial um ponto em que um observador se encontra. Na figura abaixo, o
+                        referencial adotado é o ponto "0", e seguindo esse referencial, os carros à esquerda assumem
+                        posições negativas e os carros à direia, posições positivas.</p>
+                </div>
+
+                <figure>
+                    <img src="../assets/images/Movimento Uniforme/Referencial.png" alt="Imagem Ilustrativa"
+                        style="width: 800px;">
+                    <figcaption>Diferentes posições de acordo com um referencial<br>Fonte: Brasil Escola - UOL
+                    </figcaption>
+                </figure>
+
+                <div class="texto">
+                    <p>Observe que as posições (positivas ou negativas) são definidas pelo referencial. Caso adotássemos
+                        outro ponto de referência, os carros poderiam assumir posições diferentes, como podemos ver na
+                        imagem abaixo:</p>
+                </div>
+
+                <figure>
+                    <img src="../assets/images/Movimento Uniforme/Movimento progressivo e regressivo.png"
+                        alt="Imagem Ilustrativa" style="width: 800px;">
+                    <figcaption>Diferentes posições de acordo com um referencial<br>Fonte: Brasil Escola - UOL
+                    </figcaption>
+                </figure>
+
+                <div class="texto">
+                    <p>Observe também que os carros que se afastam do referencial têm seu movimento classificado como
+                        progressivo, enquanto os que se aproximam do referencial são classificados como regressivos.</p>
+                </div>
+
+
+            </section>
+        </section>
+
+        <footer id="rodape">
+            <div class="divRodape">
+                <div id="sobre">
+                    <h1>DESCONFÍSICA</h1>
+                    <p>Uma plataforma de estudos de física</p>
+                </div>
+                <div id="categorias">
+                    <h1>CATEGORIAS</h1>
+                    <a href="index.html">Início</a>
+                    <a href="materias.html">Matérias</a>
+                    <a href="quemSomos.html">Quem Somos</a>
+                </div>
+                <div id="informacoes">
+                    <h1>INFORMAÇÕES</h1>
+                    <p onclick="showModal()">Política de Privacidade</p>
+                    <p onclick="showModalTermos()">Termos e Condições</p>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>Copyright © 2022 | DESCONFÍSICA. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </main>
+    <script src="../index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+::selection{
+    background-color: #933FFE;
+    color: #fff;
+}
+
+.cabecalho {
+    background-color: #1A1B23
+}
+
+
+a.botao {
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+
+}
+
+div.text-end button {
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+div.text-end button:hover {
+    background: black;
+    border: 1px solid #FFFFFF;
+}
+
+div.text-end button#Cadastro {
+    background: linear-gradient(225deg, #18C8FF 14.89%, #933FFE 85.85%);
+    border-radius: 10px;
+    border: none;
+}
+
+.body-middle {
+    background: #0B0B0F;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.campoTexto {
+    background: #1A1B23;
+    margin: 20px 3rem 150px 3rem;
+    border-radius: 20px;
+}
+
+#titulo_QuemSomos h1 {
+    color: #FFF;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#titulo_QuemSomos h3 {
+    font-size: 23px;
+    padding: 50px;
+    color: #898CA9;
+    text-decoration: underline;
+}
+
+#titulo_QuemSomos h1 {
+    margin: 20px !important;
+    color: white;
+    display: inline-block;
+    position: relative;
+    cursor: default;
+    z-index: 1;
+}
+
+#titulo_QuemSomos h1::before {
+    content: "";
+    background-color: #933FFE;
+    display: block;
+    position: absolute;
+    inset: 0;
+    z-index: -1; 
+    transition: transform 300ms ease;
+    transform-origin: right;
+    transform: scaleX(0);
+}
+
+#titulo_QuemSomos h1:hover::before {
+    transform: scaleX(1);
+}
+
+.texto p {
+    font-size: 18px;
+}
+
+.texto p, .texto h2 {
+    color: #fff;
+    display: block;
+    padding-inline-start: 15%;
+    padding-inline-end: 15%;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
+.texto h2 {
+    color: #a972f1;
+    text-decoration: underline;
+}
+
+#rodape {
+    width: 100%;
+    padding-top: 20px;
+    background: rgba(18, 18, 31, 0.849);
+}
+
+.divRodape {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.divRodape h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.divRodape a {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.divRodape p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.divRodape a:hover, .divRodape p:hover {
+    color: #B982FF;
+    cursor: pointer;
+}
+
+#sobre,
+#categorias,
+#informacoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.modal {
+    position: fixed !important;
+    padding: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    transform: scale(1.1) !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out !important;
+}
+
+.modal-content {
+    background-color: white !important;
+    padding: 16px 24px !important;
+    width: 1500px !important;
+    border-radius: 0.5rem !important;
+
+}
+
+#fechar{
+    float: right !important;
+    width: 24px !important;
+    cursor: pointer !important;
+    background-color: lightgray !important;
+    text-align: center !important;
+    line-height: 24px !important;
+}
+
+#fechar:hover {
+    background-color: darkgray !important;
+}
+
+.show-modal {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: scale(1.0) !important;
+
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+#copyright p {
+    padding-top: 10px;
+    color: white;
+    border-top: 1px solid #B982FF;
+}
+
+@media(max-width: 600px) {
+    #informacoes {
+        display: none;
+    }
+
+    #titulo_QuemSomos h1 {
+        font-size: 2rem;
+    }
+
+    .subtopicos{
+        font-size: 1.2rem;
+    }
+
+    .texto p {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 432px) {
+    a.navbar-brand img {
+        width: 67.6px;
+        height: 52px;
+    }
+
+    .texto p{
+        text-align: center;
+    }
+
+
+}
+
+@media(max-width:400px){
+    a {
+        font-size: 11px;
+    }
+
+    #titulo_QuemSomos h1 {
+        font-size: 1.5rem;
+    }
+
+    .texto p {
+        font-size: 12px;
+    }
+    
+    #sobre p {
+        font-size: 11px;
+    }
+
+    .divRodape h1 {
+        font-size: 15px;
+    }
+
+    .divRodape a,
+    p {
+        font-size: 12px;
+    }
+
+    #copyright p {
+        font-size: 11px;
+    }
+}

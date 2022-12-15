@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/prfag/Desktop/site/media/videos/graficoDeslocamentoPorTempoVEM/1080p60/partial_movie_files/Formula/2724823860_2642064080_1466130756.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/graficoDeslocamentoPorTempoVEM/1080p60/partial_movie_files/Formula/1164547788_4160489557_3155263033.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/graficoDeslocamentoPorTempoVEM/1080p60/partial_movie_files/Formula/1164547788_1152718458_1111044443.mp4'

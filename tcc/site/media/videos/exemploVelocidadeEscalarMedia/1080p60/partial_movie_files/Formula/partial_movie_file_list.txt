@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/2724823860_2598210088_715990967.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_1152718458_230111244.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_2027062124_2218972295.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_4256397622_1539202778.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_3699636473_3098314637.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_463910377_2899598779.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_378179449_117305158.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_6669119_1251485144.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_2627112019_3714494016.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/exemploVelocidadeEscalarMedia/1080p60/partial_movie_files/Formula/1164547788_1427617254_1592270211.mp4'

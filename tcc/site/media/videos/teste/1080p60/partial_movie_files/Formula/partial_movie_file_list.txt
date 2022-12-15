@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/2724823860_2598210088_715990967.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_1152718458_230111244.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_2027062124_2218972295.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_4256397622_1903723686.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_3699636473_3098314637.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_463910377_2899598779.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_378179449_117305158.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_428505845_1251485144.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_2627112019_1992391161.mp4'
+file 'file:C:/Users/prfag/Desktop/site/media/videos/teste/1080p60/partial_movie_files/Formula/1164547788_1427617254_380270201.mp4'

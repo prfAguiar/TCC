@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <h1>Faça Login</h1>
+        <div class="social-media">
+            <a href="#" class="google">
+                <img src="../assets/cadastro/google.png" alt="Google">
+            </a>
+            <a href="#" class="facebook">
+                <img src="../assets/cadastro/facebook.png" alt="Facebook">
+            </a>
+            <a href="#" class="linkedin">
+                <img src="../assets/cadastro/linkedin.png" alt="Linkedin">
+            </a>
+        </div>
+
+        <div class="alternative">
+            <span>OU</span>
+        </div>
+
+        <form action="">
+            <label for="userName">
+                <span>Nome de usuário</span>
+                <input type="text" name="userName" id="userName" required>
+            </label>
+            <label for="email">
+                <span>E-mail</span>
+                <input type="email" id="email" name="email" required>
+            </label>
+
+            <label for="password">
+                <span>Senha</span>
+                <input type="password" id="password" name="password" required>
+            </label>
+        
+            <input id="logar" type="submit" value="Sign In">
+        </form>
+
+        <p id="cadastrar">Ainda não possui cadastro?</p>
+        <a href="cadastro.html" id="hyperlink-cadastrar">Cadastre-se</a>
+    </main>
+    <section class="images">
+        <img src="../assets/cadastro/mobile.svg" alt="Mobile">
+        <div class="circle"></div>
+    </section>
+    <script src="../js/validarLogin.js"></script>
+</body>
+</html>
