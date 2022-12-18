@@ -6,6 +6,6 @@ A proposta da plataforma chamada Desconfísica é de auxiliar os estudantes do E
 Bem como, apresenta matérias do Ensino Médio(por enquanto somente algumas do 1º ano).
 
 * O código das simulações criadas estão disponíveis no repositório.
-* Foi utilizado os frameworks Django e Bootstrap para a confecção da plataforma.
+* Foram utilizados os frameworks Django e Bootstrap para a confecção da plataforma.
 
 
